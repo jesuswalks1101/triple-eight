@@ -212,3 +212,78 @@ fieldset {
 .gallery {
     display: flex;
 }
+
+/* Offers */
+
+.offers {
+    background-color: #F2F2F2;
+    text-align: center;
+    padding-top: 70px;
+    
+}
+
+.offers b {
+    font-size: 60px;
+    color: #F2F2F2;
+}
+
+.offers p {
+    padding: 20px 0;
+}
+
+.offers article{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.offers section {
+    background-color: #fff;
+    text-align: left;
+    padding: 25px;
+    margin: 25px;
+    max-width: 350px;
+}
+
+.transportation {
+    display: flex;
+    justify-content: center;
+}
+
+/* Career */
+
+.career-container {
+    margin: 0 10%;
+}
+
+.career {
+    display: flex;
+}
+
+.career-container p {
+    padding: 35px 0;
+}
+
+.button-road {
+    cursor: pointer;
+    border: none;
+    background: #4F4F4F;
+    color: #FFF;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.button-driver {
+    cursor: pointer;
+    border: none;
+    background: #F14C4E;
+    color: #FFF;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.career-content {
+    max-width: 100%;
+}
